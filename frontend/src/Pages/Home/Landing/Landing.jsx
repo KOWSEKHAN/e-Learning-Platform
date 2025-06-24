@@ -189,7 +189,7 @@ function Landing() {
       </div>
 
       {/* Courses */}
-      <div className="courses">
+      {/* <div className="courses">
       <p>Faculty List</p>
       <hr className="underLine"/>
       <div className="subjects">
@@ -237,7 +237,7 @@ function Landing() {
         )))}
       </div>
 
-      </div>
+      </div> */}
 
       {/* About Us */}
       <div className="about" style={{backgroundColor: "#042439"}}>

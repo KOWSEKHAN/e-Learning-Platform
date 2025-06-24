@@ -28,30 +28,39 @@ function Courses() {
     <>
     <Header/>
     <div className="courses">
-      <p>Faculty List</p>
-      <hr className="underLine"/>
+      {/* <p>Faculty List</p> */}
+      {/* <hr className="underLine"/> */}
       <div className="subjects">
+        <a href="https://www.python.org/">
         <div className="subject" onClick={()=>teachersList("physics")}>
-          <img src="https://www.figma.com/file/6b4R8evBkii6mI53IA4vSS/image/8e9bf690d23d886f63466a814cfbec78187f91d2" alt="Physics" />
-          <p>Physics</p>
+          <img src="image.png" alt="Python" />
+          <p>Python</p>
         </div>
-        <div className="subject" onClick={()=>teachersList("chemistry")}>
-          <img src="https://www.figma.com/file/6b4R8evBkii6mI53IA4vSS/image/3e546b344774eb0235acc6bf6dad7814a59d6e95" alt="Chemistry" />
-          <p>Chemistry</p>
+        </a>
+        <a href="https://www.c-language.org/">
+        <div className="subject" onClick={()=>teachersList("c-language")}>
+          <img src="" alt="C-language" />
+          <p>C-programming</p>
         </div>
-        <div className="subject" onClick={()=>teachersList("biology")}>
-          <img src="https://www.figma.com/file/6b4R8evBkii6mI53IA4vSS/image/28ac70002ae0a676d9cfb0f298f3e453d12b5555" alt="Zoology" />
-          <p>Biology</p>
+        </a>
+        <a href="https://www.java.com/en/">
+        <div className="subject" onClick={()=>teachersList("java")}>
+          <img src="" alt="java" />
+          <p>java</p>
         </div>
-        <div className="subject" onClick={()=>teachersList("math")}>
-          <img src="https://www.figma.com/file/6b4R8evBkii6mI53IA4vSS/image/61930117e428a1f0f7268f888a84145f93aa0664" alt="Math" />
-          <p>Math</p>
+        </a>
+        <a href="https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/">
+        <div className="subject" onClick={()=>teachersList("DSA")}>
+          <img src="" alt="Dsa" />
+          <p>DSA</p>
         </div>
-        <div className="subject" onClick={()=>teachersList("computer")}>
-          <img src="https://www.figma.com/file/6b4R8evBkii6mI53IA4vSS/image/a64c93efe984ab29f1dfb9e8d8accd9ba449f272" alt="Computer" />
-          <p>Computer</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Operating_system/">
+        <div className="subject" onClick={()=>teachersList("OS")}>
+          <img src="https://www.figma.com/file/6b4R8evBkii6mI53IA4vSS/image/a64c93efe984ab29f1dfb9e8d8accd9ba449f272" alt="os" />
+          <p>Operating System</p>
         </div>
-        
+        </a>
       </div>
 
       <div className="flex items-center justify-center gap-10">
